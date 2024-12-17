@@ -21,9 +21,10 @@ console.log(s2.replaceAll(`javascript`,`typescript`));//"replace is used to repl
 let s3=`java`;
 let s4=`script`;
 console.log(s3);
+
 console.log(s4);
 console.log("concatination: "+(s3+s4));
-console.log("concatination: "+(s3.concat(s4)));
+console.log("conctination: "+(s3.concat(s4)));
 
 let s5=`javascript`;
 console.log(s5);

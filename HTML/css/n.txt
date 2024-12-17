@@ -1,0 +1,102 @@
+<!-- <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .class1{/*class selector*/
+            color:antiquewhite;
+        }
+    
+        /* #id1{/*id selector*//*
+            color:antiquewhite;
+        }
+        #id2{
+            color:aqua;
+        } */
+    </style>
+</head>
+<body id="body">
+    <h1 class="class1">HELLO"</h1>
+    <hr>
+    <p id="id2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio porro fugiat adipisci voluptatem, officia sit modi unde debitis, saepe, harum velit animi? Veritatis illo minima saepe suscipit aliquid! Esse, unde?</p>
+</body>
+</html> -->
+<!-- internal css --------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- <!DOCTYPE html> /*internal css*/
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* element selector */
+       *{
+        background-color: antiquewhite;
+       }
+       h1{
+        color: tomato;
+        background-color: turquoise;
+       }
+       p,q{
+        color:slategrey;
+       }
+    </style>
+</head>
+<body id="body">
+    <h1 >HELLO"</h1>
+    <hr>
+    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio porro fugiat adipisci voluptatem, officia sit modi unde debitis, saepe, harum velit animi? Veritatis illo minima saepe suscipit aliquid! Esse, unde?</p>
+    <blockquote>
+        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laboriosam quia tenetur commodi modi soluta veniam deserunt nesciunt, quasi itaque cupiditate necessitatibus suscipit dolor fugit sequi placeat corporis officiis explicabo.</q>
+    </blockquote>
+    </body>
+</html> -->
+<!-- <!DOCTYPE html>-->
+  <!--specificity css-->
+ <!--
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     h1{
+        color: antiquewhite;
+     }
+     .class{
+        color: aqua;
+     }
+     .id{
+        color: blue;
+     }
+    </style>
+</head>
+<body id="body">
+    <h1 class="class" id="id" style="color: palevioletred;" >HELLO"</h1>
+    </body>
+</html> -->
+<!-- <!DOCTYPE html>  -->
+<!--specificity css -->
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     h1{
+        color: antiquewhite !important;
+     }
+     .class{
+        color: aqua ;
+     }
+     .id{
+        color: blue;
+     }
+    </style>
+</head>
+<body id="body">
+    <h1 class="class" id="id" style="color: palevioletred;" >HELLO"</h1>
+    </body>
+</html> -->
