@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-FORMS</title>
+</head>
+<body>
+    <h1>HTML-FORMS</h1>
+    <form action=""> <!-- to create form-->
+        <fieldset> <!-- to create a boundry for the form-->
+            <legend>GENERAL ADMISSION REGISTRATION</legend><!--like a dominant heading of form with in a Boundry-->
+            <label for="">
+                Name<!--without this end user cant identify weather what is it-->
+                <input type="text" required><!-- to get the input from the user --><!--type:text will get text input-->
+                <input type="text" required>
+            </label>
+            <br><br>
+            <label for="">
+                Email Id
+                <input type="email">
+            </label>
+            <br><br>
+
+            <label for="Gender">
+                Gender
+                <label for="">
+                    Male
+                    <input type="radio" name="Gender" id="Male">
+                </label>
+                <label for="">
+                    Female
+                    <input type="radio" name="Gender" id="Female">
+                </label>
+            </label>
+            <br><br>
+
+            <label for="">
+                Phone Number
+                <input type="text" required>
+            </label>
+            <br><br>
+
+            <label for="">
+                Emergency Phone Number
+                <input type="text" required>
+            </label>
+            <br><br>
+            
+
+            <label for="Parking">
+                Do you required Parking?
+                <br>
+                <label for="">
+                    Yes
+                    <input type="radio" name="Parking" id="Yes">
+                </label>
+                <label for="">
+                    No
+                    <input type="radio" name="Parking" id="No">
+                </label>
+            </label>
+            <br><br>
+
+            <label for="room preference ">
+                What is your room preference
+                <br>
+                <label for="">
+                    Single room
+                    <input type="radio" name="room preference" id="Single room">
+                </label>
+                <br>
+                <label for="">
+                    Shared room
+                    <input type="radio" name="room preference" id="Shared room">
+                </label>
+                <br>
+                <label for="">
+                    No room needed
+                    <input type="radio" name="room preference" id="No room needed">
+                </label>
+            </label>
+            <br><br>
+
+
+            <label for="Dietery Restrictions">
+                Do You Have Dietery Restrictions?
+                <br>
+                <label for="">
+                    None
+                    <input type="checkbox" name="Dietery Restrictions" id="None">
+                </label>
+                <br>
+                <label for="">
+                    Veg
+                    <input type="checkbox" name="Dietery Restrictions" id="Veg">
+                </label>
+                <br>
+                <label for="">
+                    Glutten allergy
+                    <input type="checkbox" name="Dietery Restrictions" id="Glutten allergy">
+                </label>
+                <br>
+                <label for="">
+                    Lactose allergy
+                    <input type="checkbox" name="Dietery Restrictions" id="Lactose allergy">
+                </label>
+                <br>
+                <label for="">
+                    Nut allergy
+                    <input type="checkbox" name="Dietery Restrictions" id="Nut allergy">
+                </label>
+                <br>
+                <label for="">
+                    Shellfish allergy
+                    <input type="checkbox" name="Dietery Restrictions" id="Shellfish allergy">
+                </label>
+            </label>
+            <br><br>
+
+            <label for="Activities">
+                What Activities will you attend?
+                <br>
+                <label for="">
+                    Award gala dinner
+                    <input type="checkbox" name="Activities" id="Award gala dinner">
+                </label>
+                <br>
+                <label for="">
+                    Luncheon
+                    <input type="checkbox" name="Activities" id="Luncheon">
+                </label>
+                <br>
+                <label for="">
+                    Town Hall
+                    <input type="checkbox" name="Activities" id="Town Hall">
+                </label>
+            </label>
+            <br><br>
+
+
+            <label for="Notification through phone">
+                Do you want to see the list of other attendees and their profile on the official event app?
+                <br>
+                <label for="">
+                    Yes
+                    <input type="radio" name="Notification through phone" id="Yes">
+                </label>
+                <br>
+                <label for="">
+                    no
+                    <input type="radio" name="Notification through phone" id="No">
+                </label>
+            </label>
+            <br><br>
+    
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

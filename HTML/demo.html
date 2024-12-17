@@ -1,0 +1,251 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Table with footer</title>
+</head>
+<body>
+    <h1>HTML - Table with footer</h1>
+    <table border=".5px">
+        <thead>
+            <tr>
+                <th rowspan="2">ID</th>
+                <th colspan="3">NAME</th>
+                <th colspan="2">MAILD_ID</th>
+                <th colspan="2">PHONE_NUM</th>
+                
+            <tr>
+                <th>FIRST</th>
+                <th>MIDDLE</th>
+                <th>LAST</th>
+                <th>PERSONAL</th>
+                <th>PROFESSIONAL</th>
+                <th>PERSONAL</th>
+                <th>PROFESSIONAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>rajan</td>
+                <td>-</td>
+                <td>K</td>
+                <td>RajanWithch@gmail.com</td>
+                <td>rajan@gmail.com</td>
+                <td>756395148</td>
+                <td>759425656</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Anbu</td>
+                <td>-</td>
+                <td>k</td>
+                <td>anbuwithj@gmail.com</td>
+                <td>andu@gmail.com</td>
+                <td>789321645</td>
+                <td>7539518426</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="8">All the data are dummy!
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - TABLE </title>
+</head>
+<body>
+    <h1>HTML_TABLE_TASK_01</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th rowspan="3">DAY</th>
+                <th colspan="3">SEMINAR</th>
+                
+            </tr>
+            <tr>
+                <th colspan="2">SCHEDULE</th>
+                <th rowspan="2">TOPIC</th>
+            </tr>
+            <tr>
+                <th>BEGIN</th>
+                <th>END</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">MONDAY</td>
+                <td rowspan="2">8 AM</td>
+                <td rowspan="2">5 PM</td>
+                <td >INRO TO XML</td>
+            </tr>
+            <tr>
+                <td>valid</td>
+            </tr>
+
+            </tbody>
+            <tbody>
+            <tr>
+                <td rowspan="3">TUESDAY</td>
+            </tr>
+                <td>8 AM</td>
+                <td>11 AM</td>
+            </tr>
+            <tr>
+                <td>11 AM</td>
+                <td>2 PM</td>
+            </tr>
+            <tr>
+                <td>2 PM</td>
+                <td>5 PM</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested table - HTML</title>
+</head>
+<body>
+    <h1>Nested table - HTML</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Hcol 1</th>
+                <th>Hcol 2</th>
+                <th>Hcol 3</th>
+                <th>Hcol 4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> row2 item 1</td>
+            </tr>
+            <tr>
+                <td> row3 Nested table 2
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th>row1 header</td>
+                            <th>item</th>
+                        </tr>
+                        <tr>
+                            <th>row2 header</td>
+                            <th>item</th>
+                        </tr>
+                    </thead>
+                </table>
+            </td>
+            </tr>
+            <tr>
+                <td>row 4 item 1</td>
+            </tr>
+            <tr>
+                <td>row 5 last row</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-FORMS</title>
+</head>
+<body>
+    <h1>HTML-FORMS</h1>
+    <form action=""> <!-- to create form-->
+        <fieldset> <!-- to create a boundry for the form-->
+            <legend>REGISTRATION FORM</legend><!--like a dominant heading of form with in a Boundry-->
+            <label for="">
+                Firstname<!--without this end user cant identify weather what is it-->
+                <input type="text" required><!-- to get the input from the user --><!--type:text will get text input-->
+            </label>
+            <br><br>
+            <label for="">
+                Middlename
+                <input type="text">
+            </label>
+            <br><br>
+            <label for="">
+                Lastname
+                <input type="text" required>
+            </label>
+            <br><br>
+            <label for="">
+                Username
+                <input type="text" required>
+            </label>
+            <br><br>
+            <label for="">
+                Password
+                <input type="password" required>
+            </label>
+            <br><br>
+
+            <label for="Gender">
+                Gender
+                <label for="">
+                    Male
+                    <input type="radio" name="Gender" id="Male">
+                </label>
+                <label for="">
+                    Female
+                    <input type="radio" name="Gender" id="Female">
+                </label>
+            </label>
+            <br><br>
+
+            <label for="Skills">
+                Skills
+                <label for="">
+                    Frontend
+                    <input type="checkbox" name="Skills" id="Frontend">
+                </label>
+                <label for="">
+                    Middleware
+                    <input type="checkbox" name="Skills" id="Middleware">
+                </label>
+                <label for="">
+                    backend
+                    <input type="checkbox" name="Skills" id="backend">
+                </label>
+            </label>
+            <br><br>
+
+
+            <input type="submit">
+            <br><br>
+            <input type="reset">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
+
+-->

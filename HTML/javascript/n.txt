@@ -1,0 +1,540 @@
+//////////Html-JavaScript-EX-1////////////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>JavaScript</title>
+     <script src="script.js"></script>
+ </head>
+ <body>
+     <h1>JavaScript</h1>
+ </body>
+ </html>
+/////////script////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+ console.log("HELLO WORLD");
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+/////////// Html-JavaScript-EX-2///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+//////////script///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+let age=67;//let is a component we can change the value
+age=21;
+console.log(age);
+
+const nname="shan";//const is a component we can't change the value
+//nname="shanm" // it will through error when we try to change it
+console.log(nname);
+
+let status= true;
+console.log(status);
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/////////Html-JavaScript-EX-2(\\\\\\\OPERATORS\\\\\\\\\)///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+////////script/////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+ let i=5;
+let j=2;
+
+let a=i+j;
+console.log("Addition of "+i+" and "+j+" is :"+a);
+
+let s=i-j;
+console.log("Subtraction of "+i+" and "+j+" is :"+s);
+
+let m=i*j;
+console.log("Mul of "+i+" and "+j+" is :"+m);
+
+let q=i/j;
+console.log("quo of "+i+" and "+j+" is :"+q);
+
+let r=ij;
+console.log("Reminder of "+i+" and "+j+" is :"+r);
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ /////////Html-JavaScript-EX-2(\\\\\\\compound assignment operator\\\\\\\\\)///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+////////script/////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+ let i=5;
+
+ console.log("content of i :"+i);
+
+
+ let data=(i+=10);//incrementing the value of i
+
+ console.log("content of i :"+i);
+
+ console.log("content of data :"+data);
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  /////////Html-JavaScript-EX-2(\\\\\\\increment assignment operator\\\\\\\\\)///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+////////script/////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+let a=10;
+
+console.log("content of i :"+a);
+
+let b=50;
+
+console.log("content of i :"+b);
+
+let inc= ++a + b++ + a++ + ++b;//++ before the value means incrementing before performing a operator,++ after the value means incrementing after performing a operator
+
+console.log("content of inc :"+inc);
+
+console.log("content of i :"+a);
+
+console.log("content of i :"+b);
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ /////////Html-JavaScript-EX-2(\\\\\\\ARRAY\\\\\\\\\)///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+////////script/////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+//Approch I
+// declaration
+let array1;
+//instantiation
+array1=[];
+//initialitation
+array1[0]=1;
+array1[1]=2;
+array1[2]=3;
+//utilization
+for(let i=0;i<array1.length;i++){
+    console.log(array1[i]);
+}
+//=========================================
+//Approch I
+// declaration
+let array2;
+//instantiation
+array1=new Array;
+//initialitation
+array1[0]=1;
+array1[1]=true;
+array1[2]="hello";
+//utilization
+for(let i=0;i<array1.length;i++){
+    console.log(array1[i]);
+}
+===========================================
+//Approch III
+// declaration,instantiation and initialitation
+let array1=[1,2,3,4,5];
+//utilization
+for(let i=0;i<array1.length;i++){
+    console.log(array1[i]);
+}
+//=========================================
+//Approch IV
+// declaration,instantiation and initialitation
+let array2=new Array(1,true,"hello");
+//utilization
+for(let i=0;i<array2.length;i++){
+    console.log(array2[i]);
+}
+//WAJSP to display the first , middle and last element from the given Array-------------------------
+let array1=[1,2,3,4,5,6];
+
+console.log("array elements:"+array1);
+console.log("array first elements:"+array1[0]);
+console.log("array middle elements:"+array1[~~(array1.length/2)]);
+console.log("array last elements:"+array1[array1.length-1]);
+
+//WAJSP to display the count , sum and product of the element from the given number type array-------------
+
+console.log("count of array"+(array1.length-1));
+let sum=0;
+let product=1;
+for(let i=0;i<array1.length;i++){
+    sum=sum+array1[i];
+    product=product*array1[i];
+}
+console.log(sum);
+console.log(product);
+
+//WAJSP to display the sqr and cube of elements from given number type array----------------------
+console.log("sqr of array elements")
+for(let i=0;i<array1.length;i++){
+    console.log((array1[i]*array1[i]));
+}
+console.log("cube of array elements")
+for(let i=0;i<array1.length;i++){
+    console.log((array1[i]*array1[i]*array1[i]));
+}
+//WAJSP to check weather the given number type array is Strictly increasing----------------------
+let array1=[1,2,33,4,5];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let count=0;
+for(let i=0;i<size;i++){
+    if(array1[i]<array1[i+1]){
+        if(array1[i]-array1[i+1]==-1){
+            count++;
+        }
+
+    }
+}
+
+if(size==count){
+    console.log("its Strictly increasing ")
+}
+else{
+    console.log("its not Strictly increasing ")
+
+}
+//WAJSP to check weather the given number type array is Strictly decreasing--------------------
+let array1=[5,4,3,2,1];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let count=0;
+for(let i=0;i<size;i++){
+    if(array1[i]>array1[i+1]){
+        if(array1[i]-array1[i+1]==1){
+            count++;
+        }
+
+    }
+}
+
+if(size==count){
+    console.log("its Strictly decreasing ")
+}
+else{
+    console.log("its not Strictly decreasing ")
+
+}
+//WAJSP to check weather the given number type array is Strictly increasing then decreasing------
+let array1=[1,2,3,2,1];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let count1=0;
+let count2=0
+for(let i=0;i<size;i++){
+    if(array1[i]<array1[i+1]){
+        if(array1[i]-array1[i+1]==-1){
+            count1++;
+        }
+    }
+    else if(array1[i]>array1[i+1]){
+        if(array1[i]-array1[i+1]==1){
+            count2++;
+        }
+    }
+}
+
+if(count1==count2){
+    console.log("its Strictly increasing then decreasing ")
+}
+else{
+    console.log("its not Strictly increasing then decreasing ")
+
+}
+//WAJSP to check weather the given number type array is Strictly decreasing then increasing------------
+let array1=[5,4,3,4,5];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let count1=0;
+let count2=0
+for(let i=0;i<size;i++){
+    if(array1[i]>array1[i+1]){
+        if(array1[i]-array1[i+1]==1){
+            count1++;
+        }
+    }
+    else if(array1[i]<array1[i+1]){
+        if(array1[i]-array1[i+1]==-1){
+            count2++;
+        }
+    }
+}
+
+if(count1==count2){
+    console.log("its Strictly decreasing then increasing ")
+}
+else{
+    console.log("its not Strictly decreasing then increasing ")
+
+}
+//WAJSP to check weather the given number type array is Palindrome are not without introducing the new array------------
+let array1=[1,2,3,2,1];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let count1=0;
+let count2=0
+for(let i=0;i<size;i++){
+    if(array1[i]<array1[i+1]){
+        if(array1[i]-array1[i+1]==-1){
+            count1++;
+        }
+    }
+    else if(array1[i]>array1[i+1]){
+        if(array1[i]-array1[i+1]==1){
+            count2++;
+        }
+    }
+}
+
+if(count1==count2){
+    console.log("its Palindrome array ")
+}
+else{
+    console.log("its not Palindrome array ")
+
+}
+//WAJSP to check weather the given number type array is Palindrome are not ------------
+let array1=[1,5,3,2,1];
+let size=array1.length-1;
+
+console.log("array elements:"+array1);
+let index=0;
+let array2=[];
+let count=0;
+for(let i=size;i>=0;i--){
+   array2[index]=array1[i];
+   index++;
+}
+for(let i=0;i<size;i++){
+    if(array1[i]==array2[i]){
+        count++;
+    }
+ }
+
+ if(size==count){
+    console.log("its Palindrome array ")
+}
+else{
+    console.log("its not Palindrome array ")
+
+}
+
+/////////Html-JavaScript-EX-2(\\\\\\\STRING\\\\\\\\\)///////////---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
+////////script/////////---------------------------------------------------------------------------------------------
+//Approch I
+//declaration
+let string1;
+//instantiation and initailization
+string1="hello";
+//utilization
+console.log(string1);
+
+//Approach II
+//declaration
+let string2;
+//instantiation and initailization
+string2='hello';
+//utilization
+console.log(string2);
+
+//Approach III
+//declaration
+let string3;
+//instantiation and initailization
+string3=`hello`;
+//utilization
+console.log(string3);
+
+////////script/////////---------------------------------------------------------------------------------------------
+//Approach I-1
+//declaration
+let string1;
+//instantiation and initailization
+string1=new String("hello");
+//utilization
+console.log(string1);
+
+//Approach II-1
+//declaration
+let string2;
+//instantiation and initailization
+string2=new String('hello');
+//utilization
+console.log(string2);
+
+//Approach III-1
+//declaration
+let string3;
+//instantiation and initailization
+string3=new String(`hello`);
+//utilization
+console.log(string3);
+
+////////script/////////---------------------------------------------------------------------------------------------
+//Approach I-2
+//declaration and instantiation and initailization
+let string1=new String("hello");
+//utilization
+console.log(string1);
+
+//Approach II-2
+//declaration and instantiation and initailization
+let string2=new String('hello');
+//utilization
+console.log(string2);
+
+//Approach III-2
+//declaration and instantiation and initailization
+let string3=new String(`hello`);
+//utilization
+console.log(string3);
+
+////////script/////////---------------------------------------------------------------------------------------------
+
+//common predefined functions in javaScript
+let s1=`09AZaz`
+console.log("initialized Sting: "+s1);
+console.log("initialized Sting to upper case: "+s1.length);//used to find length
+console.log("initialized Sting to upper case: "+s1.toUpperCase());//used to make all upper case
+console.log("initialized Sting to lower case: "+s1.toLowerCase());//used to make all lower case
+for(let i=0;i<s1.length;i++){
+    console.log(s1.charAt(i));//charAt is used to go to string and return the character letter by letter
+}
+for(let i=0;i<s1.length;i++){
+    console.log(s1.charAt(i)+"-"+s1.charCodeAt(i));//charCodeAt is used to go to string and return the character's ASCII value letter by letter
+}
+
+let s2=`javascript is OOP language ! , javascript is easy to learn`;
+console.log(s2);
+
+console.log(s2.replace(`javascript`,`typescript`));//"replace is used to replace or update the word that was present in sentance - it will only replace the word that came first "
+
+console.log(s2.replaceAll(`javascript`,`typescript`));//"replace is used to replace or update the word that was present in sentance - it will replace all the word that have to replace in sentance
+
+let s3=`java`;
+let s4=`script`;
+console.log(s3);
+console.log(s4);
+console.log("concatination: "+(s3+s4));
+console.log("concatination: "+(s3.concat(s4)));
+
+let s5=`javascript`;
+console.log(s5);
+console.log("Substring from s to remaining all: "+s5.substring(4));
+console.log("Substring from 0 to 4: "+s5.substring(0,4));
+
+let s6=`javascript`;
+console.log(s5);
+console.log("to check weather its starts with j: "+s5.startsWith(`j`));//startswith , endswith functions are user to check or compare the string weather its correct or nor it will produce boolean value as output
+console.log("to check weather its ends with t: "+s5.endsWith(`t`));
+console.log("to check weather its ends with T: "+s5.endsWith(`T`));
+
+//common predefined functions in javaScript
+let s1=`09AZaz`
+console.log("initialized Sting: "+s1);
+console.log("initialized Sting to upper case: "+s1.length);//used to find length
+console.log("initialized Sting to upper case: "+s1.toUpperCase());//used to make all upper case
+console.log("initialized Sting to lower case: "+s1.toLowerCase());//used to make all lower case
+for(let i=0;i<s1.length;i++){
+    console.log(s1.charAt(i));//charAt is used to go to string and return the character letter by letter
+}
+for(let i=0;i<s1.length;i++){
+    console.log(s1.charAt(i)+"-"+s1.charCodeAt(i));//charCodeAt is used to go to string and return the character's ASCII value letter by letter
+}
+
+let s2=`javascript is OOP language ! , javascript is easy to learn`;
+console.log(s2);
+
+console.log(s2.replace(`javascript`,`typescript`));//"replace is used to replace or update the word that was present in sentance - it will only replace the word that came first "
+
+console.log(s2.replaceAll(`javascript`,`typescript`));//"replace is used to replace or update the word that was present in sentance - it will replace all the word that have to replace in sentance
+
+let s3=`java`;
+let s4=`script`;
+console.log(s3);
+console.log(s4);
+console.log("concatination: "+(s3+s4));
+console.log("concatination: "+(s3.concat(s4)));
+
+let s5=`javascript`;
+console.log(s5);
+console.log("Substring from s to remaining all: "+s5.substring(4));
+console.log("Substring from 0 to 4: "+s5.substring(0,4));
+
+let s6=`javascript`;
+
+
+
+
+
